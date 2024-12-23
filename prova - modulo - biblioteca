@@ -1,0 +1,11 @@
+import random
+
+def lancar_dados():
+  
+    dado1 = random.randint(1, 6)  # Lança o primeiro dado
+    dado2 = random.randint(1, 6)  # Lança o segundo dado
+    soma = dado1 + dado2
+    return soma
+
+soma_dados = lancar_dados()
+print(f"Soma dos dados: {soma_dados}")
